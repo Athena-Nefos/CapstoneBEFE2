@@ -1,9 +1,9 @@
 // server.js
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-const dotenv = require('dotenv');
-const movieRoutes = require('./routes/movies');
+import express from 'express';
+import mongoose from 'mongoose';
+import cors from 'cors';
+import dotenv from 'dotenv';
+import movieRoutes from './routes/Movies.mjs';
 
 // Load environment variables
 dotenv.config();
@@ -28,3 +28,4 @@ app.use('/api/movies', movieRoutes);
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
