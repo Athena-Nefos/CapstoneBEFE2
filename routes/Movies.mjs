@@ -6,6 +6,8 @@ const router = express.Router();
 // GET all movies
 router.get('/', async (req, res) => {
     try {
+        
+
     const movies = await Movie.find().sort({ createdAt: -1 });
     res.json(movies);
     } catch (err) {
