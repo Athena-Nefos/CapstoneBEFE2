@@ -10,8 +10,7 @@ const movieSchema = new mongoose.Schema({
     },
     imdbID: {
     type: String,
-    required: true,
-    unique: true
+    required: true
     },
     year: {
     type: String,
@@ -19,7 +18,6 @@ const movieSchema = new mongoose.Schema({
     },
     poster: {
     type: String,
-
     },
     genre: {
     type: String,
@@ -43,6 +41,11 @@ const movieSchema = new mongoose.Schema({
     userNotes: {
     type: String,
     default: ''
+    },
+    user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
     },
     createdAt: {
     type: Date,
