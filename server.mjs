@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import movieRoutes from './routes/Movies.mjs';
+import authRoutes from './routes/auth.mjs';
 
 // Load environment variables
 dotenv.config();
