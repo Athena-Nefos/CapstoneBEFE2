@@ -99,7 +99,7 @@ The API uses JWT (JSON Web Tokens) for authentication. Users receive a token upo
 
 ## <a name="aboutTheAuthor">About_the_Author</a>
 
-I build applications and projects tied making creative solutions to real world problems.  While no application is ever perfect I find joy in the process and perfecting my final products!
+I build applications and projects making creative solutions to real world problems.  While no application is ever perfect I find joy in the process and perfecting my final products!
 
 * https://github.com/Athena-Nefos
 
@@ -139,4 +139,4 @@ I build applications and projects tied making creative solutions to real world p
 
  ## Special Mentions:  Supporters of the Build
 
- Big Shout Out to Elizabeth Davis and Kumar Bijayananda for always going over the code with me and answering questions I have.  Big shout out to Xxavier Polk, Naomi Crowder, Danielle Aguirre and Owen Darville for alwasy coming through with the perspective and encouragement.  Big thanks to Ramzi Karkoub for always coming through with the keyboard shortcuts.  And of course, Big thanks to the entire class coming in with their intelligence , support, and expertise.  Many thanks to the guidance of ALL the Instructors at Per Scholas, as well as , the Support Team and Bryan Santos for being a great IA going above and beyond for the whole class.  
+ Big Shout Out to Elizabeth Davis and Kumar Bijayananda for always going over the code with me and answering questions I have.  Big shout out to Xxavier Polk, Naomi Crowder, Danielle Aguirre and Owen Darville for alwasy coming through with the perspective and encouragement.  Big thanks to Ramzi Karkoub for always coming through with the keyboard shortcuts.  And of course, Big thanks to the entire class coming in with their intelligence , support, and expertise.  Many thanks to the guidance of ALL the Instructors at Per Scholas, as well as , the Support Team and Bryan Santos for being a great IA going above and beyond for the whole class.  I would also like to thank ChatGPT, Google and Claude ai. 
