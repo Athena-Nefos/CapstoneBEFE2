@@ -1,5 +1,13 @@
-# Capstone Backend
+# Capstone Backend README.md - Find Your Movie Night Application, 
 
-# An Express Server Application for Movie Search and WatchList
+### A RESTful API server providing movie finder and management capabilities for the Movie Finder Application
 
-[Backend] (https://github.com/Athena-Nefos/CapstoneBEFE2)
+# Description 
+
+## Movie Finder Backend is a robust Node.js RESTful API that powers the Movie Night Finder Application, allowing users to create accounts, find new movies, add movies to their collection, track their watch status, rate films, and manage their personal movie library. Built with security in mind, the API implements JWT authentication and provides a complete set of CRUD operations for movie management.
+
+# Table of Contents 
+
+
+
+[Backend](https://github.com/Athena-Nefos/CapstoneBEFE2)

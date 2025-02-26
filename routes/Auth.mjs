@@ -1,6 +1,6 @@
 import express from 'express';
 import User from '../models/User.mjs';
-import auth from '../middleware/Auth.mjs';
+import auth from '../middleware/auth.mjs';
 
 const router = express.Router();
 

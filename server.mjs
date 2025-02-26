@@ -11,10 +11,11 @@ dotenv.config();
 
 // Initialize express app
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors());
+
 app.use(express.json());
 
 // Connect to MongoDB
@@ -24,6 +25,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 // Routes
 app.use('/api/movies', movieRoutes);
+app.use('/api/auth', authRoutes);
 
 // Start server
 app.listen(PORT, () => {
