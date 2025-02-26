@@ -8,15 +8,15 @@
 
 # Table of Contents 
 
-* [Technologies_Used] (#technologiesUsed)
-* [Features] (#features)
-* [API_Endpoints] (#apiEndpoints)
-* [Database_Schema] (#dataBaseSchema)
-* [Authentication] (#authentication)
-* [Project_Next_Steps] (#projectNextSteps)
-* [Deployment] (#deployment)
-* [About_the_Author] (#aboutTheAuthor)
-* [Getting_Started] (#gettingStarted)
+* [Technologies_Used](#technologiesUsed)
+* [Features](#features)
+* [API_Endpoints](#apiEndpoints)
+* [Database_Schema](#dataBaseSchema)
+* [Authentication](#authentication)
+* [Project_Next_Steps](#projectNextSteps)
+* [Deployment](#deployment)
+* [About_the_Author](#aboutTheAuthor)
+* [Getting_Started](#gettingStarted)
 
 ## <a name="technologiesUsed">Technologies_Used</a> 
  
@@ -108,5 +108,35 @@ I build applications and projects tied making creative solutions to real world p
 ### Prerequisites
 
     * Node.js (v14 or higher)
+    * MongoDB installation or MongoDB Atlas account
 
-[Backend](https://github.com/Athena-Nefos/CapstoneBEFE2)
+### Installation
+
+    1. Clone the repository:
+
+        * git clone https://github.com/Athena-Nefos/CapstoneBEFE2
+
+    2. Install dependencies:
+
+        * npm install
+
+    3. Create a .env file in the root directory with the following variables:
+
+        *   PORT=3001
+            MONGODB_URI=your_mongodb_connection_string
+            JWT_SECRET=your_jwt_secret    
+
+    4. Start the development server:
+
+        * npm start  
+
+        * The server will run on http://localhost:3001 by default.
+
+## Backend and Frontend Links
+
+ [Backend](https://github.com/Athena-Nefos/CapstoneBEFE2)
+ [Frontend](https://github.com/Athena-Nefos/CapstoneFEBE)
+
+ ## Special Mentions:  Supporters of the Build
+
+ Big Shout Out to Elizabeth Davis and Kumar Bijayananda for always going over the code with me and answering questions I have.  Big shout out to Xxavier Polk, Naomi Crowder, Danielle Aguirre and Owen Darville for alwasy coming through with the perspective and encouragement.  Big thanks to Ramzi Karkoub for always coming through with the keyboard shortcuts.  and ofcourse Big thanks to the entire class comin gin with their intelligence , support, and expertise.  Many thanks to the giudance of ALL the Instructors at Per Scholas, as well as , the Support Team and Bryan Santos for being a great IA going above and beyond for the whole class.  
