@@ -3,8 +3,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import movieRoutes from './routes/movies.mjs';
-import authRoutes from './routes/auth.mjs';
+import movieRoutes from './routes/Movies.mjs';
+import authRoutes from './routes/Auth.mjs';
 
 // Load environment variables
 dotenv.config();
